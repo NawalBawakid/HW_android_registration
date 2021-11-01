@@ -35,6 +35,9 @@ class MainActivity : AppCompatActivity() {
             binding.dateComment.setText(binding.date.text.toString())
         }else{
             binding.comment.setText("Registration not Successed")
+            binding.nameComment.setText("")
+            binding.emailComment.setText("")
+            binding.dateComment.setText("")
         }
 
         if(checked){
